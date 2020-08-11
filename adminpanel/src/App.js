@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 import { HashRouter, Route, Switch } from 'react-router-dom';
 // import './scss/style.scss';
+// import { useHistory } from "react-router-dom";
+import './App.css';
+// import Login from './Login';
+// import Dashboard from './Dashboard';
+// import Settings from './Settings';
 
 // import loader
 

@@ -1,7 +1,7 @@
 import React from 'react';
-import Card from '../statefullComponents/Card'
-import Listing from '../statefullComponents/Listing'
-import Jobs from "../statefullComponents/Jobs"
+import Card from './Card'
+import Listing from './Listing'
+import Jobs from "./Jobs"
 
 class Apps extends React.Component {
 
