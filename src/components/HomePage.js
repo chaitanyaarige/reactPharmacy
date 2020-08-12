@@ -1,5 +1,4 @@
 import React from "react";
-import '../assets/scss/style.scss';
 
 class HomePage extends React.Component {
   render() {
@@ -46,8 +45,7 @@ class HomePage extends React.Component {
                   aria-expanded="false"
                 >
                   <div className="nav-profile-img">
-                    <img src="assets/images/faces/avatar.png" alt="hjkhk">
-                    </img>
+                    <img src="assets/images/faces/avatar.png" alt="hjkhk"></img>
                     <span className="availability-status online"></span>
                   </div>
                   <div className="nav-profile-text">
@@ -59,8 +57,8 @@ class HomePage extends React.Component {
                   aria-labelledby="profileDropdown"
                 >
                   <a className="dropdown-item" href="gfhjk.com">
-                    <i className="mdi mdi-cached mr-2 text-success"></i> Activity
-                    Log
+                    <i className="mdi mdi-cached mr-2 text-success"></i>{" "}
+                    Activity Log
                   </a>
                   <div className="dropdown-divider"></div>
                   <a className="dropdown-item" href="www.ggoogle.com">
@@ -183,11 +181,17 @@ class HomePage extends React.Component {
                       <h6 className="preview-subject font-weight-normal mb-1">
                         Settings
                       </h6>
-                      <p className="text-gray ellipsis mb-0"> Update dashboard </p>
+                      <p className="text-gray ellipsis mb-0">
+                        {" "}
+                        Update dashboard{" "}
+                      </p>
                     </div>
                   </a>
                   <div className="dropdown-divider"></div>
-                  <a href="www.gofol.com" className="dropdown-item preview-item">
+                  <a
+                    href="www.gofol.com"
+                    className="dropdown-item preview-item"
+                  >
                     <div className="preview-thumbnail">
                       <div className="preview-icon bg-info">
                         <i className="mdi mdi-link-variant"></i>
@@ -197,11 +201,16 @@ class HomePage extends React.Component {
                       <h6 className="preview-subject font-weight-normal mb-1">
                         Launch Admin
                       </h6>
-                      <p className="text-gray ellipsis mb-0"> New admin wow! </p>
+                      <p className="text-gray ellipsis mb-0">
+                        {" "}
+                        New admin wow!{" "}
+                      </p>
                     </div>
                   </a>
                   <div className="dropdown-divider"></div>
-                  <h6 className="p-3 mb-0 text-center">See all notifications</h6>
+                  <h6 className="p-3 mb-0 text-center">
+                    See all notifications
+                  </h6>
                 </div>
               </li>
               <li className="nav-item nav-logout d-none d-lg-block">
@@ -223,7 +232,7 @@ class HomePage extends React.Component {
               <span className="mdi mdi-menu"></span>
             </button>
           </div>
-        </nav> 
+        </nav>
       </div>
     );
   }
